@@ -10,7 +10,7 @@ let package = Package(
             targets: ["PerfectSession"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/PerfectlySoft/Perfect-Logger.git", from: "3.0.5"),
+        .package(url: "https://github.com/ryancoyne/Perfect-Logger.git", from: "4.0.0"),
     ],
     targets: [
         .target(
