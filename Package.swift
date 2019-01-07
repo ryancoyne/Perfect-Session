@@ -15,9 +15,12 @@ let package = Package(
     targets: [
         .target(
             name: "PerfectSession",
-            dependencies: ["PerfectLogger"]),
+            dependencies: ["PerfectLogger"],
+            path: "Sources/PerfectSession"
+        ),
         .testTarget(
             name: "PerfectSessionTests",
-            dependencies: ["PerfectSession"]),
+            dependencies: ["PerfectSession"]
+        ),
     ]
 )
